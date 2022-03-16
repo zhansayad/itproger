@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfirstapp.ControllerAbout">
+    <children>
+        <AnchorPane prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #000000;">
+            <children>
+                <Label layoutX="91.0" layoutY="6.0" prefHeight="48.0" prefWidth="118.0" text="Smart AIU" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="178.0" fitWidth="300.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/aiu_promo.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="84.0" layoutY="196.0" text="LATEST NEWS">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="-2.0" layoutY="260.0" prefHeight="80.0" prefWidth="300.0" style="-fx-background-color: #000000;">
+            <children>
+                <ImageView fitHeight="60.0" fitWidth="90.0" layoutX="105.0" layoutY="-30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../img/deans1.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <ImageView fx:id="news1_button" fitHeight="60.0" fitWidth="101.0" layoutX="7.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/comp1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="60.0" fitWidth="101.0" layoutX="197.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/news.jpeg" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
