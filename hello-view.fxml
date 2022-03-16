@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfirstapp.HelloController">
+    <children>
+        <Button fx:id="login_button" layoutX="32.0" layoutY="290.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="230.0" text="Login" />
+        <Button fx:id="registration_button" layoutX="33.0" layoutY="328.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="230.0" text="Registration" />
+        <Label layoutX="35.0" layoutY="152.0" text="E-mail or phone number" />
+        <Label layoutX="36.0" layoutY="204.0" text="Password" />
+        <TextField fx:id="email_field" layoutX="33.0" layoutY="169.0" prefHeight="30.0" prefWidth="230.0" />
+        <PasswordField fx:id="password_field" layoutX="33.0" layoutY="221.0" prefHeight="30.0" prefWidth="230.0" promptText="password" />
+        <AnchorPane prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #000000;">
+            <children>
+                <Label layoutX="91.0" layoutY="6.0" prefHeight="48.0" prefWidth="118.0" text="Smart AIU" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Label layoutX="57.0" layoutY="93.0" prefHeight="17.0" prefWidth="186.0" text="Please, enter your e-mail or phone " />
+        <Label layoutX="102.0" layoutY="110.0" text=" number to login" />
+        <Label layoutX="109.0" layoutY="410.0" text="Reset password" />
+    </children>
+</AnchorPane>
